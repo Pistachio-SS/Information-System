@@ -29,8 +29,9 @@ student	in	a	map.	For	example	the	grade	for	John	Doe	would	be	something	like:
 "FINAL" {:weight 60, :grade 70}}
 So	now	you	have	to	do	something	with	your	data.	You	will	provide	the	following	menu	to	allow	the	
 user	to	perform	actions	on	the	data:
+
 *** Grade Processing Menu ***
------------------------------
+
 1. List Names
 2. Display Student Record by Id
 3. Display Student Record by Lastname
