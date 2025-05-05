@@ -1,4 +1,5 @@
 # Information-System
+---
 
 DESCRIPTION: It’s	time	to	try	a	little	functional	programming.	In	this	case,	
 your	job	will	be	to	develop	a	very	simple	information	system	with	Clojure.	REALLY	simple.		In	fact,	
@@ -8,12 +9,13 @@ students	in	the	class	with	their	grades for	every	assignment/exam	component.
 grades.txt:	<student	id,	first	name,	last	name,	[component,	weight,	grade]…>
 The	number	of	components	may	vary	from	file	to	file,	however,	it	would	be	the	same	for	all	students	
 in	a	single	file.
+
 A	sample	file	is	given	in	the	following:
 40543437,John,Doe,A1,10,95.5,A2,10,100,MIDTERM,20,80,FINAL,60,70
 40543476,Jane,Doe,A1,10,100,A2,10,100,MIDTERM,20,90,FINAL,60,100
 40545276,Michael,J,A1,10,99,A2,10,98,MIDTERM,20,97,FINAL,60,76
 40544545,Yo,McLovin,A1,10,70,A2,10,70,MIDTERM,20,60,FINAL,60,60
-...
+
 Note	that	no	[syntax]	error	checking	is	required	for	any	of	the	data	files.	You	can	assume	that	they	
 have	been	created	properly, and	all	fields	are	present.	Each	field	is	separated	by	a	“,”	and	contains	a	
 non-empty	string.
